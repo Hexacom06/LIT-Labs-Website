@@ -140,8 +140,7 @@ const ServicesSection = () => {
                       loading="lazy"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 transform transition-transform duration-300">
-                      <h4 className="text-white text-xl font-bold mb-2"> Continuing from where we left off in the ServicesSection.tsx file:
-
+                      <h4 className="text-white text-xl font-bold mb-2"> 
                         {slide.title}
                       </h4>
                       <p className="text-white/90 text-sm">
