@@ -227,7 +227,7 @@ const ServicesSection = () => {
               Let's make schools future-ready.
             </h3>
             <button 
-              className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-[30px] py-[15px] rounded-[4px] font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
+              className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-[30px] py-[15px] rounded-full font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-cyan-500/25"
             >
               Get Started
             </button>
