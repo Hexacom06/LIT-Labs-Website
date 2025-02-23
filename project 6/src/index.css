@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Light Streaks Animation */
+@keyframes lightStreak {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100%) rotate(5deg);
+    opacity: 0;
+  }
+}
+
+@keyframes lightStreakReverse {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(100%) rotate(-5deg);
+    opacity: 0;
+  }
+}
+
+.light-streak {
+  position: absolute;
+  width: 2px;
+  height: 200px;
+  background: linear-gradient(180deg, transparent, #00FFFF, transparent);
+  filter: blur(2px);
+}
+
+.light-streak::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.light-streak-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
+}
+
+/* Services section specific styles */
+.services-bg {
+  position: relative;
+  background: linear-gradient(135deg, #0a0f24 0%, #004e92 100%);
+}
+
+.services-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(60deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 100%),
+    linear-gradient(-60deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.03) 50%, rgba(255, 255, 255, 0.03) 100%),
+    linear-gradient(180deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.07) 50%, rgba(255, 255, 255, 0.07) 100%);
+  background-size: 60px 104px;
+  background-position: 0 0, 0 0, 30px 0;
+  filter: drop-shadow(0 0 2px rgba(0, 255, 255, 0.1));
+  transition: all 0.3s ease;
+  animation: gridPulse 8s ease-in-out infinite;
+  opacity: 0.25;
+}
+
+.services-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(0, 255, 255, 0.05) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+@keyframes gridPulse {
+  0%, 100% {
+    opacity: 0;
+    filter: drop-shadow(0 0 2px rgba(0, 255, 255, 0.1));
+  }
+  50% {
+    opacity: 0.25;
+    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.2));
+  }
+}
+
+/* Grid cell hover effect */
+.services-bg:hover::before {
+  opacity: 0.25;
+  background-image: 
+    linear-gradient(60deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 100%),
+    linear-gradient(-60deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.07) 50%, rgba(255, 255, 255, 0.07) 100%),
+    linear-gradient(180deg, transparent 0%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 100%);
+  filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.2));
+  transition: all 0.3s ease;
+}
+
+.services-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Glassmorphism styles */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+}
