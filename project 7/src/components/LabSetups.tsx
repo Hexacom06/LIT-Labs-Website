@@ -13,7 +13,7 @@ const LabSetups = () => {
           <div className="group overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
             <div className="relative overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&h=800&q=80"
+                src="https://www.dropbox.com/scl/fi/twazr6sh9pbq71eh5yn8n/AI-Lab-Layout.png?rlkey=4sgi1ceak7oohy5ru90x3ytj0&st=kaxd3pnf&dl=0"
                 alt="Modern Robotics Laboratory"
                 className="w-full h-[400px] object-cover transform transition-transform duration-300 group-hover:scale-105"
                 loading="lazy"
@@ -33,7 +33,7 @@ const LabSetups = () => {
           <div className="group overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:shadow-xl">
             <div className="relative overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&h=800&q=80"
+                src="https://www.dropbox.com/scl/fi/o08biorfeo23bcw3k6s7c/scienceLabUs-1.png?rlkey=0s17ofhppiumnnofneizdmsxq&st=gbivhd6b&dl=0"
                 alt="STEM Laboratory"
                 className="w-full h-[400px] object-cover transform transition-transform duration-300 group-hover:scale-105"
                 loading="lazy"
