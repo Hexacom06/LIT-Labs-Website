@@ -40,10 +40,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-6">Our Programs</h3>
             <ul className="space-y-4">
               {[
-                'Robotics Workshops',
-                'AI & ML Training',
-                'Drone Technology',
-                'IoT & Automation',
+                'Workshops',
+                'Teacher Training',
                 'STEM Lab Installations'
               ].map((program) => (
                 <li key={program}>
@@ -65,25 +63,25 @@ const Footer = () => {
               <li className="flex items-center space-x-3 group">
                 <MapPin className="h-5 w-5 text-gray-300 group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-gray-200 group-hover:text-white transition-colors duration-300">
-                  123 Tech Park, Innovation Street
+                  Lucknow
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
                 <Phone className="h-5 w-5 text-gray-300 group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-gray-200 group-hover:text-white transition-colors duration-300">
-                  +91 98765 43210
+                  +91 9919955911
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
                 <Mail className="h-5 w-5 text-gray-300 group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-gray-200 group-hover:text-white transition-colors duration-300">
-                  info@litlabs.com
+                  support@litlabs.in
                 </span>
               </li>
               <li className="flex items-center space-x-3 group">
                 <Globe className="h-5 w-5 text-gray-300 group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-gray-200 group-hover:text-white transition-colors duration-300">
-                  www.litlabs.com
+                  www.litlabs.in
                 </span>
               </li>
             </ul>
