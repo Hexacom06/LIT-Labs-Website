@@ -40,7 +40,7 @@ const Navigation = () => {
             <div className="flex items-center">
               <div className="flex items-center px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm">
                 <GraduationCap className="h-8 w-8 text-blue-600" />
-                <span className="ml-2 text-xl font-bold text-blue-600">L.I.T. Lab</span>
+                <span className="ml-2 text-xl font-bold text-blue-600">L.I.T. Labs</span>
               </div>
             </div>
             
