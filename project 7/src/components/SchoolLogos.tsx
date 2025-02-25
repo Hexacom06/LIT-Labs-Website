@@ -3,20 +3,20 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const schoolLogos = [
   {
-    name: 'Delhi Public School',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=DPS'
+    name: 'DBSE',
+    logo: '/images/Delhi Board.png'
   },
   {
-    name: 'Ryan International',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=Ryan'
+    name: 'Uttarakhand Board',
+    logo: '/images/Uttarakhan Board.png'
   },
   {
     name: 'Kendriya Vidyalaya',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=KV'
+    logo: '/images/KV.png'
   },
   {
-    name: 'DAV Public School',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=DAV'
+    name: 'Javahar Navodaya Vidyalaya',
+    logo: '/images/JNV.png'
   },
   {
     name: 'Modern School',
