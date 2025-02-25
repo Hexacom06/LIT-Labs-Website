@@ -200,7 +200,7 @@ const ServicesSection = () => {
               >
                 <div className="relative overflow-hidden">
                   <img
-                    src="https://www.dropbox.com/scl/fi/twazr6sh9pbq71eh5yn8n/AI-Lab-Layout.png?rlkey=4sgi1ceak7oohy5ru90x3ytj0&st=kaxd3pnf&dl=0"
+                    src="/images/scienceLabUs-1.png"
                     alt="Modern Robotics Laboratory"
                     className="w-full h-[400px] object-cover transform transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
