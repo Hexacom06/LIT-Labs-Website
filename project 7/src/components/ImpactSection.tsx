@@ -6,62 +6,62 @@ import SchoolLogos from './SchoolLogos';
 const testimonialsByCategory = {
   students: [
     {
-      quote: "The robotics program opened my eyes to a whole new world of possibilities. I'm now considering a career in engineering!",
-      author: "Alex Chen",
-      role: "12th Grade Student",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop"
+      quote: "Building an aircraft model was like living my dream! I felt like Iron Man.  I want to create fighter jets in the future.",
+      author: "Rohan",
+      role: "6th Grade Student",
+      image: "/images/Rohan Class6.png"
     },
     {
-      quote: "The hands-on STEM workshops made complex concepts so much easier to understand. Learning has never been this fun!",
-      author: "Sarah Martinez",
+      quote: "The robotics program opened my eyes to a whole new world of possibilities. I'm now considering a career in engineering!",
+      author: "Khushbu",
       role: "11th Grade Student",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&h=200&fit=crop"
+      image: "/images/khushbunew.jpg"
     },
     {
       quote: "I love how we get to work on real-world projects. It's not just theory anymore - we're actually building things!",
-      author: "James Wilson",
-      role: "10th Grade Student",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&h=200&fit=crop"
+      author: "Arpit Savarkar",
+      role: "8th Grade Student",
+      image: "/images/Arpit Savarkar.webp"
     }
   ],
   teachers: [
     {
-      quote: "The STEM workshops have transformed how our students engage with technology. The hands-on experience is invaluable.",
-      author: "Dr. Sarah Chen",
-      role: "Science Department Head",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
+      quote: "LIT Labs program challenged and inspired students, offering real-world STEM skills in an exciting format. Absolutely fantastic!",
+      author: "Dr. Shailendra Mishra",
+      role: "Principal",
+      image: "/images/Principal.png"
     },
     {
-      quote: "EduTech's lab installations have brought our science department into the 21st century. Our students are thriving.",
-      author: "Michael Rodriguez",
-      role: "Physics Teacher",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop"
+      quote: "Students were fully engaged, working as teams, and developing essential skills like problem-solving & creativity. A brilliant program that we highly recommend.",
+      author: "Smt. Pushpinder Kaur",
+      role: "Principal",
+      image: "/images/Chairman.png"
     },
     {
-      quote: "The curriculum support has made it so much easier to integrate modern technology into our daily lessons.",
-      author: "Emily Thompson",
-      role: "Technology Coordinator",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop"
+      quote: "The curriculum support by LIT Labs has made it so much easier to integrate modern technology into our daily lessons.",
+      author: "Smt. Shalini Dubey",
+      role: "Science Teacher",
+      image: "/images/ShaliniDubey.jpg"
     }
   ],
   parents: [
     {
-      quote: "Seeing my daughter's enthusiasm for science grow has been incredible. The program has really sparked her curiosity.",
-      author: "Patricia Lee",
+      quote: "Seeing my daughter's enthusiasm for science grow has been incredible. LIT Labs' program has really sparked her curiosity.",
+      author: "Sm. Seetu Yadav ",
       role: "Parent",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop"
+      image: "/images/ShailendraSingh.webp"
     },
     {
       quote: "The practical skills my son is learning are preparing him for the future. It's an investment in his education.",
-      author: "Robert Johnson",
+      author: "Sm. Tapan Singh",
       role: "Parent",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+      image: "/images/images (1).jpeg"
     },
     {
-      quote: "We've seen a remarkable improvement in our child's problem-solving abilities since joining the program.",
-      author: "Maria Garcia",
+      quote: "We've seen a remarkable improvement in our child's problem-solving abilities and interest since joining LIT Labs program.",
+      author: "Sm. Saurabh Yadav",
       role: "Parent",
-      image: "https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?w=200&h=200&fit=crop"
+      image: "/images/SaurabhYadav.webp"
     }
   ]
 };
