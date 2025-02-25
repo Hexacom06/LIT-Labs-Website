@@ -15,7 +15,7 @@ const workshops = [
   {
     title: 'Drone Technology',
     description: 'Master aerial robotics and automation',
-    image: 'https://images.unsplash.com/photo-1581092127838-1566ed216258?auto=format&fit=crop&w=800&q=80'
+    image: '/images/Drone Workshopfin.jpeg'
   },
   {
     title: 'IoT Innovation',
