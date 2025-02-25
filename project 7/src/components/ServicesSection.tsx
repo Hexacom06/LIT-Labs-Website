@@ -3,6 +3,11 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const workshops = [
   {
+    title: 'Aeromodelling',
+    description: 'Understand the principles of flight and make your own aircrafts.',
+    image: 'project 7/public/images/WhatsApp Image 2025-02-25 at 13.12.16.jpeg'
+  },
+  {
     title: 'Robotics Workshop',
     description: 'Design, build, and program real robots!',
     image: 'https://images.unsplash.com/photo-1581092160607-ee22731c2edb?auto=format&fit=crop&w=800&q=80'
@@ -10,7 +15,7 @@ const workshops = [
   {
     title: 'AI & Machine Learning',
     description: 'Explore the future of artificial intelligence',
-    image: 'https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=800&q=80'
+    image: '/images/WhatsApp Image 2025-02-25 at 13.06.23 (1).jpeg'
   },
   {
     title: 'Drone Technology',
@@ -20,12 +25,12 @@ const workshops = [
   {
     title: 'IoT Innovation',
     description: 'Connect and control smart devices',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=800&q=80'
+    image: 'project 7/public/images/IotWorkshop.jpg'
   },
   {
     title: 'Cybersecurity',
     description: 'Learn ethical hacking and system protection',
-    image: 'https://images.unsplash.com/photo-1581092160562-0b60f54e6df0?auto=format&fit=crop&w=800&q=80'
+    image: '/images/WhatsApp Image 2025-02-25 at 13.06.23 (2).jpeg'
   }
 ];
 
@@ -33,12 +38,12 @@ const labSetups = [
   {
     name: 'STEM Lab',
     description: 'A state-of-the-art facility equipped with advanced learning tools, interactive displays, and collaborative workspaces designed to foster innovation and hands-on learning in science, technology, engineering, and mathematics.',
-    image: 'https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&h=800&q=80'
+    image: '/images/scienceLabUs-1.png0'
   },
   {
     name: 'Robotics Lab',
     description: 'Cutting-edge robotics laboratory featuring programmable robots, assembly stations, testing areas, and specialized equipment for students to explore mechanical engineering, programming, and automation.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&h=800&q=80'
+    image: '/images/AI-Lab-Layout.png'
   }
 ];
 
@@ -200,8 +205,8 @@ const ServicesSection = () => {
               >
                 <div className="relative overflow-hidden">
                   <img
-                    src="/images/scienceLabUs-1.png"
-                    alt="Modern Robotics Laboratory"
+                    src={lab.image}
+                    alt={lab.name}
                     className="w-full h-[400px] object-cover transform transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
                   />
