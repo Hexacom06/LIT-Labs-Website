@@ -16,15 +16,7 @@ const schoolLogos = [
   },
   {
     name: 'Javahar Navodaya Vidyalaya',
-    logo: '/images/JNV.png'
-  },
-  {
-    name: 'Modern School',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=Modern'
-  },
-  {
-    name: 'St. Xavier\'s',
-    logo: 'https://placehold.co/200x100/e2e8f0/64748b?text=Xavier'
+    logo: '/images/jnv.png'
   },
 ];
 
