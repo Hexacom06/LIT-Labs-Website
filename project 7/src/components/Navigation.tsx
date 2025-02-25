@@ -44,7 +44,6 @@ const Navigation = () => {
                   alt="L.I.T. Labs Logo" 
                   className="h-8 w-auto"
                 />
-                <span className="ml-2 text-xl font-bold text-blue-600">L.I.T. Labs</span>
               </div>
             </div>
             
