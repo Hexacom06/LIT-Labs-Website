@@ -5,12 +5,12 @@ const workshops = [
   {
     title: 'Aeromodelling',
     description: 'Understand the principles of flight and make your own aircrafts.',
-    image: 'project 7/public/images/WhatsApp Image 2025-02-25 at 13.12.16.jpeg'
+    image: '/images/WhatsApp Image 2025-02-25 at 13.12.16.jpeg'
   },
   {
     title: 'Robotics Workshop',
     description: 'Design, build, and program real robots!',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22731c2edb?auto=format&fit=crop&w=800&q=80'
+    image: '/images/20230303105844blobid0.jpg'
   },
   {
     title: 'AI & Machine Learning',
@@ -25,7 +25,7 @@ const workshops = [
   {
     title: 'IoT Innovation',
     description: 'Connect and control smart devices',
-    image: 'project 7/public/images/IotWorkshop.jpg'
+    image: '/images/IotWorkshop.jpg'
   },
   {
     title: 'Cybersecurity',
