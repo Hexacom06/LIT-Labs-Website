@@ -39,7 +39,11 @@ const Navigation = () => {
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center">
               <div className="flex items-center px-4 py-2 rounded-full bg-white/50 backdrop-blur-sm">
-                <GraduationCap className="h-8 w-8 text-blue-600" />
+                <img 
+                  src="/images/Screenshot_2025-02-25_at_4.04.08_PM-removebg-preview.png" 
+                  alt="L.I.T. Labs Logo" 
+                  className="h-8 w-auto"
+                />
                 <span className="ml-2 text-xl font-bold text-blue-600">L.I.T. Labs</span>
               </div>
             </div>
