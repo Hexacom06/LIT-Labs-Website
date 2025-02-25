@@ -38,7 +38,7 @@ const labSetups = [
   {
     name: 'STEM Lab',
     description: 'A state-of-the-art facility equipped with advanced learning tools, interactive displays, and collaborative workspaces designed to foster innovation and hands-on learning in science, technology, engineering, and mathematics.',
-    image: '/images/scienceLabUs-1.png0'
+    image: '/images/scienceLabUs-1.png'
   },
   {
     name: 'Robotics Lab',
